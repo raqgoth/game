@@ -13,8 +13,8 @@ const NavBar = () => {
             <NavLink exact to='/about'>
                     About us
             </NavLink>
-            <NavLink exact to='/atHome' >
-                Learn at Home
+            <NavLink exact to='/remote' >
+                Remote Learning
             </NavLink>
             
             </div>
