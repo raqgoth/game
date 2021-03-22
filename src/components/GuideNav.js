@@ -2,25 +2,19 @@ import React, { useEffect } from 'react'
 import {NavLink} from 'react-router-dom'
 import '../styles/Nav.css'
 
-const LandsNav = () => {
+const GuideNav = () => {
     return (    
             <nav className='navbar navbar-expand-sm bg-dark'>
            <div className="container">
             <div className="row row-cols-4">
-            <NavLink exact to='/create lands'>
-                   Create Lands
+            <NavLink exact to='/caregivers'>
+                   Caregivers
             </NavLink>
-            
-            <NavLink exact to='/Update lands'>
-                    Update Lands
+            <NavLink exact to='/teachers'>
+                   Teachers
             </NavLink>
-            <NavLink exact to='/Delete lands'>
-                    Delete Lands
-            </NavLink>
-                
-           
-            <NavLink exact to='/' >
-                Home
+            <NavLink exact to='/student'>
+                   students
             </NavLink>
             </div>
             </div>
@@ -31,4 +25,4 @@ const LandsNav = () => {
     
 }
 
-export default LandsNav
+export default GuideNav

@@ -7,18 +7,16 @@ const NavBar = () => {
             <nav className='navbar navbar-expand-sm bg-dark'>
            <div className="container">
             <div className="row row-cols-4">
-            <NavLink exact to='/signup'>
-                    SignUp
-            </NavLink>
-            
-            <NavLink exact to='/login'>
-                    Log In
-            </NavLink>
-                
-           
             <NavLink exact to='/' >
                 Home
             </NavLink>
+            <NavLink exact to='/about'>
+                    About us
+            </NavLink>
+            <NavLink exact to='/atHome' >
+                Learn at Home
+            </NavLink>
+            
             </div>
             </div>
             </nav>

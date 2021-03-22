@@ -1,4 +1,5 @@
 import React from "react"
+import GuideNav from "../components/GuideNav"
 import Nav from "../components/Nav"
 import '../styles/index.css'
 
@@ -7,9 +8,10 @@ const Home = () => {
         <div className="Home">
             <Nav />
             <div>
-                <h3>Just for Grownups! Build your child's learning experience</h3>
+                <h2>Aleph and Beyond</h2>
+                <h5>For students to continue their Judaic Learning experience</h5>
             </div>
-            <Lands />
+            <GuideNav />
         </div> 
     )
 }
