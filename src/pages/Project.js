@@ -1,7 +1,6 @@
 import React from "react";
 import Nav from '../Components/Nav'
-import '../styles/Nav.css'
-import '../styles/Home.css'
+
 
 const Project = () => {
     return (
