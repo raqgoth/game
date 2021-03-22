@@ -21,10 +21,7 @@ const About = () => {
             <h5>How? </h5>
             <p>Children learn through play and building social experiences.</p>
             
-            <p>
-                Caregivers will be able to choose from our variety of learning experiences and make 
-                a learning map for their child, divided by units and chapters, or in our games terms "lands" and "Spots"
-            </p>
+            
            <h5>Our Story </h5>
                <p>We are parents and educators of children with learning disabilities.</p></div>
         </div>
