@@ -10,12 +10,10 @@ const GuideNav = () => {
             <NavLink exact to='/caregivers'>
                    Caregivers
             </NavLink>
-            <NavLink exact to='/teachers'>
-                   Teachers
-            </NavLink>
             <NavLink exact to='/student'>
-                   students
+                   Students
             </NavLink>
+
             </div>
             </div>
             </nav>

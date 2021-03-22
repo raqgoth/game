@@ -10,7 +10,7 @@ const Project = () => {
             <h2>Aleph and Beyond</h2>
             <article>
                 <div>
-                    <GuideNav />+
+                    <GuideNav />
                 </div>
         
   

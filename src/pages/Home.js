@@ -1,7 +1,7 @@
 import React from "react"
 import GuideNav from "../components/GuideNav"
 import Nav from "../components/Nav"
-import '../styles/index.css'
+
 
 const Home = () => {
     return (
